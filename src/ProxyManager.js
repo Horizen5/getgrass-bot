@@ -3,12 +3,6 @@ const axios = require('axios');
 const fs = require('fs');
 
 const PROXY_SOURCES = {
-  '服务器 1': 'https://files.ramanode.top/airdrop/grass/server_1.txt',
-  '服务器 2': 'https://files.ramanode.top/airdrop/grass/server_2.txt',
-  '服务器 3': 'https://files.ramanode.top/airdrop/grass/server_3.txt',
-  '服务器 4': 'https://files.ramanode.top/airdrop/grass/server_4.txt',
-  '服务器 5': 'https://files.ramanode.top/airdrop/grass/server_5.txt',
-  '服务器 6': 'https://files.ramanode.top/airdrop/grass/server_6.txt',
 };
 
 async function fetchProxies(url) {
